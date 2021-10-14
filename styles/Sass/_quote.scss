@@ -1,0 +1,24 @@
+.quote .card {
+  margin: 100px 0 60px 0;
+  padding: 60px 0;
+  background-color: #e1e7e798;
+ 
+ 
+  @media (max-width: 414px) {
+    margin: 50px 0;
+
+  }
+ 
+  @media (min-width: 768px) {
+    margin: 50px 0;
+
+  }
+  @media (min-width: 1024px) {
+    margin: 170px 0;
+
+  }
+}
+
+.blockquote-footer{
+  padding-top: 40px;
+}

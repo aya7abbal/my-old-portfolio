@@ -1,0 +1,35 @@
+.proj-cards{
+    .card{
+
+
+       @media (max-width:414px) {
+           
+           
+       }
+
+        @media (min-width:768px) {
+            margin:50px 100px !important;
+
+        }
+
+        @media (min-width:1024px) {
+            margin:50px 150px !important;
+
+        }
+        
+        img{
+            max-height: 600px;
+
+        }
+    }}
+
+
+      
+
+
+.page-title{
+    .btn-group {
+        display: flex;
+
+    }
+}

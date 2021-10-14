@@ -1,0 +1,37 @@
+@import '../styles/Sass/navbar';
+@import '../styles/Sass/home';
+@import '../styles/Sass/vars';
+@import '../styles/Sass/buttons';
+@import './Sass/footer';
+@import '../styles/Sass/cards';
+@import '../styles/Sass/quote';
+@import '../styles/Sass/contact';
+@import '../styles/Sass/pros';
+@import '../styles/Sass/page-title';
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0 10;
+    margin: auto;
+    a:hover {
+        text-decoration: underline;
+        font-weight: 500;
+        color: var(--light-purple);
+    }
+}

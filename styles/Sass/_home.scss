@@ -1,0 +1,138 @@
+$breakpoint-tablet: 1000px;
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.landing {
+  @media (max-width: 414px) {
+    min-height: 700px;
+  }
+
+  @media (min-width: 415px) {
+    min-height: 740px;
+  }
+
+  @media (min-width: 768px) {
+    min-height: 370px;
+  }
+
+  @media (min-width: 1024px) {
+    min-height: 350px;
+  }
+
+  @media (min-width: 1044px) {
+    min-height: 550px;
+  }
+
+  .picture {
+    padding: 20px 10px 20px 10px;
+    display: block;
+  }
+}
+
+.background {
+  background-color: var(--rose);
+  height: 200px;
+
+  @media (min-width: 414px) {
+    height: 250px;
+  }
+
+  @media (min-width: 768px) {
+    height: 290px;
+  }
+
+  @media (min-width: 1024px) {
+    min-height: 270px;
+  }
+
+  @media (min-width: 1044px) {
+    min-height: 390px;
+  }
+
+  width: 100%;
+  z-index: -1;
+}
+
+.col-md-6 {
+  @media (min-width: 768px) {
+    flex: 0 0 auto;
+    width: 50%;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.wrap-into{
+  min-height: 800px;
+}
+.cv-btn{
+  @media (min-width: 1024px) {
+margin-top: 80px;
+  }
+  
+  body {
+    display: grid;
+  
+    color: #111;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .cta {
+    position: relative;
+    margin: auto;
+    padding: 19px 19px;
+    transition: all 0.2s ease;
+  }
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background:#7e91a554;
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  .cta span {
+    position: relative;
+    font-size: 1em;
+    line-height: 10px;
+    font-weight: 800;
+    vertical-align: middle;
+    letter-spacing: 0.15em;
+  }
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .cta:hover:before {
+    width: 100%;
+    background: #e1e7e77a;
+    
+  }
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  .cta:active {
+    transform: scale(0.96);
+  }
+}
+
+ 

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Ephesis&family=Parisienne&display=swap");
+
+@import "../Sass/home";
+@import "../Sass/vars";
+
+.navbar {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  padding-left: 7px;
+  border-bottom: 1px solid rgba(190, 185, 185, 0.445);
+  
+}
+
+.navbar-brand {
+  font-family: "Ephesis", cursive;
+  font-size: 2.5rem;
+  @media (max-width:414px) {
+    font-size: 2em;
+
+    a{
+      text-decoration: none !important;
+
+    }
+  }
+
+}
+
+.offcanvas-header h5 {
+  font-family: "Ephesis", cursive;
+  font-size: 2rem;
+}
+
+.navbar-nav {
+  padding: 10px 20px !important;
+
+  a {
+    font-weight: light;
+  }
+
+  
+}
+
+.offcanvas {
+  a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+    color: var(--light-purple);
+  }
+}
+
+.fixed-top {
+  position: fixed !important;
+
+  @media (max-width:414px) {
+    top: 10px !important;
+
+  }
+  top: 15px !important;
+  width: 60px;
+
+  @media (max-width: 414px) {
+    left: 82%;
+  }
+
+  @media (min-width: 415px) {
+    left: 90%;
+  }
+
+  @media (min-width: 769px) {
+    left: 93%;
+  }
+}
+
+.offcanvas-header {
+  a {
+    font-family: "Ephesis", cursive;
+    font-size: 1.5rem;
+  }
+}
+
+.contact-nav {
+  position: fixed;
+  bottom: 0%;
+  color: var(--footer);
+  font-size: 1.2em;
+  right: 4%;
+
+  @media (min-width: 600px) {
+    right: 2%;
+    padding: 5px 0;
+
+    a {
+      font-size: 1rem;
+    }
+  }
+
+  a {
+    padding: 0 0.4em;
+  }
+}
