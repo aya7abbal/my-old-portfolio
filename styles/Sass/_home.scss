@@ -75,6 +75,13 @@ body {
 
   margin: 0 20%;
   width: 200px;
+
+
+  @media (min-width:500px) {
+
+    margin: 0 25%;
+  
+  }
   
   body {
     display: grid;
