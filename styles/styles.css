@@ -643,12 +643,11 @@ h6 {
   bottom: 10%;
   right: 5%;
   font-size: 30px;
-  color: #8b9e9e;
+  color: var(--teal);
 }
 
-a:hover i {
-  color: #8b9e9ea6;
-  font-size: 35px;
+.up a i:hover {
+  color: #b2c9c1;
 }
 
 .container,
