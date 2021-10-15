@@ -473,8 +473,28 @@ a {
   min-height: calc(30px-100vh);
 }
 
-.footer a {
-  font-size: 25px;
+.footer a, .footer img {
+  height: 25px;
+  font-size: 20px;
+}
+
+@media (min-width: 350px) {
+  .footer a, .footer img {
+    height: 20px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer a, .footer img {
+    height: 25px;
+    font-size: 20px;
+  }
+}
+
+.footer a:hover, .footer img:hover {
+  -webkit-filter: var(--mint);
+          filter: var(--mint);
 }
 
 .background2 {

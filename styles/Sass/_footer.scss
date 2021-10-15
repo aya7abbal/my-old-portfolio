@@ -4,8 +4,24 @@ min-height: calc(30px-100vh);
 
 // position: fixed;
 // bottom: 0%;
-  a {
-    font-size: 25px;
+  a, img{
+
+height: 25px;
+    font-size: 20px;
    
+
+    @media (min-width:350px) {
+      height: 20px;
+    font-size: 15px;
+      
+    }
+
+    @media (min-width:768px) {
+    height: 25px;
+    font-size: 20px;
   }
-}
+
+  &:hover{
+    filter: var(--mint);
+  }
+}}
