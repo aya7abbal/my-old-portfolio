@@ -454,11 +454,11 @@ body {
 }
 
 .btn-mint {
-  background-color: var(--light-blue);
+  background-color: #e1e7e77e;
 }
 
-.btn-yellow {
-  background-color: var(--lemon);
+.btn-rose {
+  background-color: var(--rose);
 }
 
 a {
