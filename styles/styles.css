@@ -172,6 +172,20 @@ body {
           transform: scale(0.96);
 }
 
+.landing .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landing .picture img {
+  max-height: auto;
+  width: 300px;
+}
+
 :root {
   --footer:#291d36cc;
   --light-purple:#A58FAA;
@@ -457,6 +471,20 @@ body {
 .cv-btn .cta:active {
   -webkit-transform: scale(0.96);
           transform: scale(0.96);
+}
+
+.landing .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landing .picture img {
+  max-height: auto;
+  width: 300px;
 }
 
 :root {
