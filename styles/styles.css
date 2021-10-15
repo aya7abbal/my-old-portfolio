@@ -470,7 +470,8 @@ a {
 
 .footer {
   background-color: var(--teal);
-  min-height: calc(30px-100vh);
+  position: fixed;
+  bottom: 0%;
 }
 
 @media (min-width: 350px) {
@@ -526,11 +527,6 @@ h6 {
 
 .blockquote-footer {
   padding-top: 40px;
-}
-
-.contact-btn {
-  margin-bottom: 100px;
-  position: relative;
 }
 
 .contact-btn .card-body a {
@@ -639,6 +635,14 @@ h6 {
 
 .page-title .card {
   border: none;
+}
+
+.up i {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  font-size: 30px;
+  color: #8b9e9e;
 }
 
 .container,

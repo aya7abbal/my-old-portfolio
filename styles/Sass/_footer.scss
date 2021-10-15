@@ -1,9 +1,9 @@
 .footer {
   background-color: var(--teal);
-  min-height: calc(30px-100vh);
+  // min-height: calc(30px-100vh);
 
-  // position: fixed;
-  // bottom: 0%;
+  position: fixed;
+  bottom: 0%;
   a,img {
 
     @media (min-width:350px) {
