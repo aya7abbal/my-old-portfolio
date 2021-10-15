@@ -482,7 +482,7 @@ a {
 
 .footer {
   background-color: var(--teal);
-  min-height: calc(10px-100vh);
+  min-height: calc(30px-100vh);
 }
 
 .footer a {
@@ -621,7 +621,7 @@ a {
 }
 
 .proj-cards .card img {
-  max-height: 600px;
+  height: auto;
 }
 
 .page-title .btn-group {
