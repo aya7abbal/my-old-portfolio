@@ -684,4 +684,8 @@ h2 {
   color: var(--teal);
   font-weight: 700;
 }
+
+.card-text p {
+  font-size: 20px !important;
+}
 /*# sourceMappingURL=styles.css.map */
