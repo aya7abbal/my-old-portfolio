@@ -15,8 +15,10 @@
 .navbar-brand {
   font-family: "Ephesis", cursive;
   font-size: 2.5rem;
+  width: 40%;
   @media (max-width:414px) {
     font-size: 2em;
+
 
     a{
       text-decoration: none !important;
