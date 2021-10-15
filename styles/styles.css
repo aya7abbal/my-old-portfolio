@@ -645,6 +645,11 @@ h6 {
   color: #8b9e9e;
 }
 
+a:hover i {
+  color: #8b9e9ea6;
+  font-size: 35px;
+}
+
 .container,
 .container-fluid,
 .container-lg,
