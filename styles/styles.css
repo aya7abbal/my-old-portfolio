@@ -474,11 +474,20 @@ a {
 }
 
 .footer a {
-  padding: 0 0.4rem;
+  font-size: 25px;
 }
 
 .background2 {
   padding: 0 50px 50px 50px;
+}
+
+.card {
+  height: auto;
+  padding-top: 30px;
+}
+
+h6 {
+  color: var(--teal);
 }
 
 .quote .card {
@@ -647,5 +656,12 @@ body a:hover {
   text-decoration: underline;
   font-weight: 500;
   color: var(--light-purple);
+}
+
+h2 {
+  text-align: center;
+  padding: 20px !important;
+  color: var(--teal);
+  font-weight: 700;
 }
 /*# sourceMappingURL=styles.css.map */
