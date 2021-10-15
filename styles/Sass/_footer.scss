@@ -1,27 +1,23 @@
 .footer {
   background-color: var(--teal);
-min-height: calc(30px-100vh);
+  min-height: calc(30px-100vh);
 
-// position: fixed;
-// bottom: 0%;
-  a, img{
-
-height: 25px;
-    font-size: 20px;
-   
+  // position: fixed;
+  // bottom: 0%;
+  a,img {
 
     @media (min-width:350px) {
       height: 20px;
-    font-size: 15px;
-      
+      font-size: 15px;
+
     }
 
     @media (min-width:768px) {
-    height: 25px;
-    font-size: 20px;
-  }
+      height: 25px;
+      font-size: 20px;
+    }
 
-  &:hover{
-    filter: var(--mint);
-  }
-}}
+    &:hover {
+      filter: var(--mint);
+    }
+  }}
