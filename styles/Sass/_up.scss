@@ -4,19 +4,23 @@
   right: 5%;
   font-size: 30px;
   color: var(--teal);
+  z-index: 3;
 
   
 }
 
 .up a{
     i:hover{
-        color: rgb(178, 201, 193);
+        color: rgba(178, 201, 193, 0.493);
+       
+        
+        
     }
 }
 
 
 
-// #up {
+// .up {
 //   position: fixed;
 //   bottom: 5%;
 //   right: 5%;
