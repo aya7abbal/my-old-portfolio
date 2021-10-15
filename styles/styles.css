@@ -66,7 +66,7 @@ body {
 
 @media (min-width: 1044px) {
   .background {
-    min-height: 390px;
+    min-height: 490px;
   }
 }
 
@@ -85,14 +85,8 @@ body {
   }
 }
 
-.wrap-into {
+.wrap-intro {
   min-height: 800px;
-}
-
-@media (min-width: 1024px) {
-  .cv-btn {
-    margin-top: 80px;
-  }
 }
 
 .cv-btn body {
@@ -346,7 +340,7 @@ body {
 
 @media (min-width: 1044px) {
   .background {
-    min-height: 390px;
+    min-height: 490px;
   }
 }
 
@@ -365,14 +359,8 @@ body {
   }
 }
 
-.wrap-into {
+.wrap-intro {
   min-height: 800px;
-}
-
-@media (min-width: 1024px) {
-  .cv-btn {
-    margin-top: 80px;
-  }
 }
 
 .cv-btn body {
@@ -513,7 +501,7 @@ a {
 
 @media (min-width: 1024px) {
   .quote .card {
-    margin: 170px 0;
+    margin: 90px 0;
   }
 }
 
