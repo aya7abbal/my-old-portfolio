@@ -89,6 +89,11 @@ body {
   min-height: 800px;
 }
 
+.cv-btn {
+  margin: 0 30%;
+  width: 200px;
+}
+
 .cv-btn body {
   display: -ms-grid;
   display: grid;
@@ -363,6 +368,11 @@ body {
   min-height: 800px;
 }
 
+.cv-btn {
+  margin: 0 30%;
+  width: 200px;
+}
+
 .cv-btn body {
   display: -ms-grid;
   display: grid;
@@ -528,6 +538,11 @@ h6 {
 
 .blockquote-footer {
   padding-top: 40px;
+}
+
+.contact-btn {
+  margin: 0 45%;
+  width: 200px;
 }
 
 .contact-btn .card-body a {
