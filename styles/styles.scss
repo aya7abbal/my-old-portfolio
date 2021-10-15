@@ -51,4 +51,7 @@ h2{
 .lang{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
+    font-size: 10px;
 }
