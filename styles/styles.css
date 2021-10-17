@@ -701,6 +701,31 @@ h6 {
   height: auto;
 }
 
+.proj-cards .card .par {
+  font-size: 1.2em;
+  color: black;
+  font-weight: 300;
+}
+
+.proj-cards .card .gitlink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.proj-cards .card .gitlink a {
+  color: var(--teal);
+  font-size: 1em;
+  text-decoration: underline;
+}
+
 .page-title .btn-group {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -775,7 +800,7 @@ h2 {
 }
 
 h5 {
-  text-decoration: underline;
+  color: #78adab;
 }
 
 h7 {

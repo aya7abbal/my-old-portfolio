@@ -21,6 +21,24 @@
             height: auto;
 
         }
+
+        .par{
+            font-size: 1.2em;
+            color: black;
+            font-weight: 300;
+        }
+
+        .gitlink{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .gitlink a{
+            color: var(--teal);
+            font-size: 1em;
+            text-decoration: underline;
+        }
     }
     // .carousel-control-prev{
         
