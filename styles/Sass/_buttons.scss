@@ -4,11 +4,18 @@
 
 .btn-mint {
   background-color: #e1e7e77e;
-  margin: 5px;
+  margin: 10px;
 }
 
 .btn-rose {
-  background-color: var(--rose);
+  color:#8ab1a8 ;
+background-color: white;
+font-weight: 700;
+font-size: 1.2em;
+&:hover{
+  text-decoration: underline !important;
+  color: #759c93;
+}
 }
 
 a {

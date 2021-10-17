@@ -31,8 +31,6 @@ body {
     padding: 0 10;
     margin: auto;
     a:hover {
-        text-decoration: underline;
-        font-weight: 500;
         color: var(--light-purple);
     }
 }
@@ -57,10 +55,23 @@ h2{
 }
 
 h5{
-    color: rgb(120, 173, 171);
+    color:rgb(148, 111, 134);
 }
 
 h7{
     color: var(--teal);
 }
 
+.gitlink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.gitlink a{
+    color: var(--teal);
+    font-size: 1em;
+    text-decoration: underline;
+
+    
+}

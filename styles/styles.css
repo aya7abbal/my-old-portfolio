@@ -210,9 +210,8 @@ body {
 }
 
 .navbar-brand {
-  font-family: "Ephesis", cursive;
+  font-family: 'Style Script', cursive;
   font-size: 2.5rem;
-  width: 40%;
 }
 
 @media (max-width: 414px) {
@@ -221,6 +220,9 @@ body {
   }
   .navbar-brand a {
     text-decoration: none !important;
+  }
+  .navbar-brand a:hover {
+    text-decoration: none;
   }
 }
 
@@ -509,11 +511,19 @@ body {
 
 .btn-mint {
   background-color: #e1e7e77e;
-  margin: 5px;
+  margin: 10px;
 }
 
 .btn-rose {
-  background-color: var(--rose);
+  color: #8ab1a8;
+  background-color: white;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.btn-rose:hover {
+  text-decoration: underline !important;
+  color: #759c93;
 }
 
 a {
@@ -726,6 +736,18 @@ h6 {
   text-decoration: underline;
 }
 
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
 .page-title .btn-group {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -771,8 +793,6 @@ body {
 }
 
 body a:hover {
-  text-decoration: underline;
-  font-weight: 500;
   color: var(--light-purple);
 }
 
@@ -800,10 +820,29 @@ h2 {
 }
 
 h5 {
-  color: #78adab;
+  color: #946f86;
 }
 
 h7 {
   color: var(--teal);
+}
+
+.gitlink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.gitlink a {
+  color: var(--teal);
+  font-size: 1em;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=styles.css.map */
