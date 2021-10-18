@@ -165,7 +165,10 @@ body {
   --cafe:#d4d4d48f;
   --rose:#F0EAEA;
   --rose2:#b39090;
+  --rose3:#e4d1d16b;
   --mint:#E1E7E7;
+  --mint2:#88a8a82d;
+  --mint3:#598383c4;
   --grey:#6C6C6E;
   --black:#010101;
   --teal2:#60758a;
@@ -437,7 +440,10 @@ body {
   --cafe:#d4d4d48f;
   --rose:#F0EAEA;
   --rose2:#b39090;
+  --rose3:#e4d1d16b;
   --mint:#E1E7E7;
+  --mint2:#88a8a82d;
+  --mint3:#598383c4;
   --grey:#6C6C6E;
   --black:#010101;
   --teal2:#60758a;
@@ -450,6 +456,10 @@ body {
 .btn-mint {
   background-color: #e1e7e77e;
   margin: 10px;
+}
+
+.btn-mint:hover {
+  color: #4a7272;
 }
 
 .btn-rose {
@@ -472,6 +482,7 @@ a {
 }
 
 .footer {
+  z-index: 100;
   background-color: var(--teal);
   position: fixed;
   bottom: 0%;
@@ -721,6 +732,82 @@ h6 {
 #myBtn:hover {
   background-color: #56626eb2;
   color: white;
+}
+
+.bold-word {
+  color: var(--mint3);
+}
+
+@media (max-width: 768px) {
+  .initial .cta {
+    right: 10%;
+  }
+}
+
+.cv a {
+  color: var(--teal);
+}
+
+.resume h5 {
+  text-transform: uppercase;
+}
+
+.resume .text-pink {
+  color: var(--rose2);
+  font-weight: 500;
+}
+
+.resume .card {
+  border: none;
+}
+
+.resume .skills {
+  background-color: var(--mint);
+  margin-top: 30px;
+  padding: 30px;
+  width: 100%;
+}
+
+.resume .skills .skill {
+  margin: 30px 0;
+  width: 100%;
+}
+
+.resume .skills .progress {
+  width: 100%;
+}
+
+.resume .skills .bg-teal {
+  background-color: white;
+}
+
+.img {
+  margin: auto;
+}
+
+.img img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .img img {
+    display: none;
+  }
+}
+
+.experience {
+  width: 100%;
+}
+
+.experience .list-group-item {
+  border: none;
+  width: 100%;
+  padding: 30px;
+}
+
+.experience .exp {
+  font-weight: 500;
 }
 
 .container,

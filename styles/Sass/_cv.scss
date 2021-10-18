@@ -1,0 +1,106 @@
+
+.bold-word{
+    color: var(--mint3);
+}
+
+
+
+.initial {
+    .cta{
+        @media (max-width:768px) {
+            right: 10%;
+            
+        }
+    }
+
+
+}
+
+
+.cv a {
+    color: var(--teal);
+}
+
+.resume{
+
+    h5{
+        text-transform: uppercase;
+    }
+    .text-pink{
+        color: var(--rose2);
+        font-weight: 500;
+    }
+
+    .card{
+        border: none;
+        // p{
+        //     padding: 0 20px;
+        // }
+    }
+
+
+
+
+
+    .skills{
+        background-color: var(--mint);
+        margin-top: 30px;
+        padding: 30px;
+        width: 100%;
+
+        .skill{
+            margin: 30px 0;
+            width: 100%;
+            
+            
+        }
+
+
+        .progress{
+            width: 100%;
+
+        }
+
+
+
+        .bg-teal{
+            background-color: white;
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+.img {
+
+    margin:auto;
+    img {
+        border-radius: 50%;
+        width: 100%;
+
+        @media (max-width:768px) {
+            display: none;
+
+        }
+    }
+}
+
+.experience{
+    width: 100%;
+    .list-group-item{
+        border:none;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .exp{
+        font-weight: 500;
+
+
+    }
+}

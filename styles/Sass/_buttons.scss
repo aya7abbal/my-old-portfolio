@@ -5,7 +5,12 @@
 .btn-mint {
   background-color: #e1e7e77e;
   margin: 10px;
+
+  &:hover{
+    color: rgb(74, 114, 114);
+  }
 }
+
 
 .btn-rose {
   color:var(--teal) ;
