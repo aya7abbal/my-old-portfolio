@@ -22,8 +22,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
 
     <!-- Style Sheet -->
     <link rel="stylesheet" href="styles/styles.css">
@@ -38,7 +38,7 @@
     <title> Aya's Portfolio</title>
 </head>
 
-<body class="home m-auto">
+<body class="home m-auto" style="background-image: url(/images/bg-index2.jpg); background-repeat: no-repeat;">
 
 
 
@@ -57,11 +57,13 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a href="/index.html"> <img src="./LOGO/logo5.png" width="50px" >
-                        </a></h5>
+                aria-labelledby="offcanvasNavbarLabel" style="width: fit-content;">
+                <div class="offcanvas-header" style="background-color: var(--rose);">
+                    <a href="/index.html"> <img src="./LOGO/logo5.png" width="30px">
 
+                    </a>
+                    <h5 class="offcanvas-title text-center fs-2" id="offcanvasNavbarLabel" style="color: black;"> Menu
+                    </h5>
 
 
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
@@ -72,7 +74,7 @@
 
 
 
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 position-relative">
+                    <ul class="navbar-nav text-center justify-content-end flex-grow-1 pe-3 position-relative">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
                         </li>
@@ -165,7 +167,7 @@
             <div class="card-body">
                 <blockquote class="blockquote mb-0 text-center">
                     <i>Never let the fear of striking out keep you from playing the game.</i>
-                    <footer class="blockquote-footer">Babe Ruth 
+                    <footer class="blockquote-footer">Babe Ruth
                     </footer>
                 </blockquote>
             </div>
@@ -199,7 +201,8 @@
 
 
                         </div>
-                        <a href="https://aya7abbal.github.io/" class=" text-center link" target="_blank">Check Out Webiste</a>
+                        <a href="https://aya7abbal.github.io/" class=" text-center link" target="_blank">Check Out
+                            Webiste</a>
                     </div>
                 </div>
             </div>
@@ -222,10 +225,11 @@
                             <button class="btn btn-mint" type="submit">Github</button>
 
                         </div>
-                        <a href="https://aya7abbal.github.io/FoodBlog/" class=" text-center link" target="_blank">Check Out Website</a>
+                        <a href="https://aya7abbal.github.io/FoodBlog/" class=" text-center link" target="_blank">Check
+                            Out Website</a>
                     </div>
                 </div>
-</div>
+            </div>
             <div class="col">
                 <div class="card">
                     <h5 class="card-title text-center"><a href="./works.html#Learning">Learning</a> </h5>
@@ -245,8 +249,10 @@
 
 
                         </div>
-                        <a href="https://aya7abbal.github.io/learning" class=" text-center link" target="_blank">Check Out Website</a>
+                        <a href="https://aya7abbal.github.io/learning" class=" text-center link" target="_blank">Check
+                            Out Website</a>
                     </div>
+
                 </div>
             </div>
 
@@ -281,12 +287,14 @@
     <br>
     <br><br>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
 
+  
 
-    <div class="up" id="up">
+    <!-- <div class="up" id="up">
         <a href="#">
             <i class="bi bi-arrow-up-square"></i></a>
-    </div>
+    </div> -->
     <!-- Footer -->
 
     <footer class="container-fluid m-auto d-flex text-white px-4 py-2 justify-content-between footer">
@@ -295,12 +303,13 @@
 
         <div class="skills-icons d-flex flex-row align-content-baseline justify-content-baseline my-auto">
 
-            <img src="./svg/css.svg" class="px-2">
-            <img src="./svg/html.svg" class="px-2">
-            <img src="./svg/bootstrap-icon.svg" class="px-2">
-            <img src="./svg/PS.svg" class="px-2">
-            <img src="./svg/ID.svg" class="px-2">
-            <img src="./svg/Ai.svg" class="px-2">
+
+            <img src="./svg/css.svg" class="px-2" title="CSS3">
+            <img src="./svg/html.svg" class="px-2" title="HTML5">
+            <img src="./svg/bootstrap-icon.svg" class="px-2" title="Bootstrap5">
+            <img src="./svg/PS.svg" class="px-2" title="Photoshop">
+            <img src="./svg/ID.svg" class="px-2" title="InDesign">
+            <img src="./svg/Ai.svg" class="px-2" title="Illustrator" >
 
 
 
@@ -310,14 +319,14 @@
         <div class="wrap my-auto">
 
             <a href="https://github.com/aya7abbal?tab=repositories" target="_blank"> <i
-                    class="bi bi-github text-white px-2"></i></a>
+                    class="bi bi-github text-white px-2" title="Github"></i></a>
 
             <a href="https://www.linkedin.com/in/aya-el-habbal-56957a66/" target="_blank"> <i
-                    class="bi bi-linkedin text-white px-2"></i></a>
+                    class="bi bi-linkedin text-white px-2" title="LinkedIn"></i></a>
 
 
             <a href="https://www.behance.net/aya7abbal" target="_blank"> <i
-                    class="fa fa-behance text-white px-2"></i></a>
+                    class="fa fa-behance text-white px-2" title="Behance"></i></a>
 
         </div>
 
@@ -329,6 +338,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
     </script>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
 
 </body>
 

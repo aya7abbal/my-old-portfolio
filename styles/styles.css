@@ -39,37 +39,6 @@ body {
   display: block;
 }
 
-.background {
-  background-color: var(--rose);
-  height: 200px;
-  width: 100%;
-  z-index: -1;
-}
-
-@media (min-width: 414px) {
-  .background {
-    height: 250px;
-  }
-}
-
-@media (min-width: 768px) {
-  .background {
-    height: 290px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .background {
-    min-height: 270px;
-  }
-}
-
-@media (min-width: 1044px) {
-  .background {
-    min-height: 490px;
-  }
-}
-
 @media (min-width: 768px) {
   .col-md-6 {
     -webkit-box-flex: 0;
@@ -193,7 +162,7 @@ body {
   --lemon:#EDEDD0;
   --logo:rgb(42, 31, 59);
   --teal:#56626E;
-  --cafe:#D4D4D4;
+  --cafe:#d4d4d48f;
   --rose:#F0EAEA;
   --rose2:#b39090;
   --mint:#E1E7E7;
@@ -342,37 +311,6 @@ body {
   display: block;
 }
 
-.background {
-  background-color: var(--rose);
-  height: 200px;
-  width: 100%;
-  z-index: -1;
-}
-
-@media (min-width: 414px) {
-  .background {
-    height: 250px;
-  }
-}
-
-@media (min-width: 768px) {
-  .background {
-    height: 290px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .background {
-    min-height: 270px;
-  }
-}
-
-@media (min-width: 1044px) {
-  .background {
-    min-height: 490px;
-  }
-}
-
 @media (min-width: 768px) {
   .col-md-6 {
     -webkit-box-flex: 0;
@@ -496,7 +434,7 @@ body {
   --lemon:#EDEDD0;
   --logo:rgb(42, 31, 59);
   --teal:#56626E;
-  --cafe:#D4D4D4;
+  --cafe:#d4d4d48f;
   --rose:#F0EAEA;
   --rose2:#b39090;
   --mint:#E1E7E7;
@@ -515,9 +453,9 @@ body {
 }
 
 .btn-rose {
-  color: #8ab1a8;
+  color: var(--teal);
   background-color: transparent;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.2em;
 }
 
@@ -748,7 +686,11 @@ h6 {
   margin-top: 10px;
 }
 
-.page-title .btn-group {
+.page-title .card {
+  background-color: transparent;
+}
+
+.page-title .card .btn-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -758,17 +700,27 @@ h6 {
   border: none;
 }
 
-.up i {
+#myBtn {
+  display: none;
   position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #56626e86;
+  cursor: pointer;
+  padding: 9px;
+  border-radius: 4px;
   bottom: 10%;
   right: 5%;
-  font-size: 30px;
-  color: var(--teal);
-  z-index: 3;
+  font-size: 25px;
+  color: white;
 }
 
-.up a i:hover {
-  color: rgba(178, 201, 193, 0.493);
+#myBtn:hover {
+  background-color: #56626eb2;
+  color: white;
 }
 
 .container,

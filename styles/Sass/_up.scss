@@ -1,35 +1,47 @@
- .up i{
-    position: fixed;
-  bottom: 10%;
-  right: 5%;
-  font-size: 30px;
-  color: var(--teal);
-  z-index: 3;
+//  .up i{
+//     position: fixed;
+//   bottom: 10%;
+//   right: 5%;
+//   font-size: 30px;
+//   color: var(--teal);
+//   z-index: 3;
 
   
-}
+// }
 
-.up a{
-    i:hover{
-        color: rgba(178, 201, 193, 0.493);
+// .up a{
+//     i:hover{
+//         color: rgba(178, 201, 193, 0.493);
        
         
         
-    }
+//     }
+// }
+
+
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #56626e86;
+  cursor: pointer;
+  padding: 9px;
+  border-radius: 4px;
+
+    bottom: 10%;
+    right: 5%;
+    font-size: 25px;
+    color: white;
 }
 
-
-
-// .up {
-//   position: fixed;
-//   bottom: 5%;
-//   right: 5%;
-//   background-color: black;
-//   border: none;
-//   border-radius: 50%;
-//   color: white;
-//   cursor: pointer;
-//   font-size: 16px;
-//   line-height: 48px;
-//   width: 48px;
-// }
+#myBtn:hover {
+  background-color:#56626eb2;
+  color:white;
+}

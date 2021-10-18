@@ -8,9 +8,9 @@
 }
 
 .btn-rose {
-  color:#8ab1a8 ;
+  color:var(--teal) ;
 background-color: transparent;
-font-weight: 700;
+font-weight: 600;
 font-size: 1.2em;
 &:hover{
   text-decoration: underline !important;
