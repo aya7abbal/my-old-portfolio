@@ -228,7 +228,7 @@ body {
 
 @media (max-width: 414px) {
   .fixed-top {
-    left: 82%;
+    left: 80%;
   }
 }
 
@@ -710,7 +710,7 @@ h6 {
   outline: none;
   background-color: #56626e86;
   cursor: pointer;
-  padding: 9px;
+  padding: 5px;
   border-radius: 4px;
   bottom: 10%;
   right: 5%;
