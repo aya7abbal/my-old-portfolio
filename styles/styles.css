@@ -4,36 +4,6 @@ body {
   width: 100%;
 }
 
-@media (max-width: 414px) {
-  .landing {
-    min-height: 700px;
-  }
-}
-
-@media (min-width: 415px) {
-  .landing {
-    min-height: 740px;
-  }
-}
-
-@media (min-width: 768px) {
-  .landing {
-    min-height: 370px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .landing {
-    min-height: 350px;
-  }
-}
-
-@media (min-width: 1044px) {
-  .landing {
-    min-height: 550px;
-  }
-}
-
 .landing .picture {
   padding: 20px 10px 20px 10px;
   display: block;
@@ -279,36 +249,6 @@ body {
   width: 100%;
 }
 
-@media (max-width: 414px) {
-  .landing {
-    min-height: 700px;
-  }
-}
-
-@media (min-width: 415px) {
-  .landing {
-    min-height: 740px;
-  }
-}
-
-@media (min-width: 768px) {
-  .landing {
-    min-height: 370px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .landing {
-    min-height: 350px;
-  }
-}
-
-@media (min-width: 1044px) {
-  .landing {
-    min-height: 550px;
-  }
-}
-
 .landing .picture {
   padding: 20px 10px 20px 10px;
   display: block;
@@ -519,27 +459,9 @@ h6 {
 
 .quote .card {
   display: block;
-  margin: 100px 0 60px 0;
+  margin: 10px 0 60px 0;
   padding: 60px 0;
   background-color: #e1e7e798;
-}
-
-@media (max-width: 414px) {
-  .quote .card {
-    margin: 50px 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .quote .card {
-    margin: 50px 0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .quote .card {
-    margin: 90px 0;
-  }
 }
 
 .blockquote-footer {
@@ -646,6 +568,10 @@ h6 {
           transform: scale(0.96);
 }
 
+.proj-cards .card {
+  max-height: 20% !important;
+}
+
 @media (min-width: 768px) {
   .proj-cards .card {
     margin: 50px 100px !important;
@@ -659,7 +585,7 @@ h6 {
 }
 
 .proj-cards .card img {
-  height: auto;
+  max-height: auto;
 }
 
 .proj-cards .card .par {
@@ -689,8 +615,6 @@ h6 {
 }
 
 .proj-cards .card .gitlink a:hover {
-  background-color: var(--cafe);
-  padding: 8px;
   border-radius: 10px;
   color: #759c93;
 }
@@ -860,17 +784,11 @@ h2 {
   text-align: center;
   color: var(--teal);
   font-weight: 700;
-  background-color: var(--cafe);
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 10px 30px !important;
-  border-radius: 10px;
   margin: 60px auto;
+  text-decoration: underline;
 }
 
 h2:hover {
-  background-color: var(--cafe);
   color: rgba(122, 167, 146, 0.658);
 }
 

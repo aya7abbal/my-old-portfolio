@@ -1,8 +1,9 @@
 .proj-cards {
     .card {
 
+       
 
-        @media (max-width:414px) {}
+        max-height: 20% !important;
 
         @media (min-width:768px) {
             margin: 50px 100px !important;
@@ -15,7 +16,7 @@
         }
 
         img {
-            height: auto;
+            max-height:auto;
 
         }
 
@@ -35,13 +36,13 @@
             color: var(--teal);
             font-size: 1em;
             text-decoration: underline;
-            margin:10px;
-&:hover{
-    background-color: var(--cafe);
-    padding: 8px;
-    border-radius: 10px;
-    color: #759c93;
-}
+            margin: 10px;
+
+            &:hover {
+                
+                border-radius: 10px;
+                color: #759c93;
+            }
 
         }
     }
@@ -64,8 +65,9 @@
 
 
 
-.page-title  .card{
+.page-title .card {
     background-color: transparent;
+
     .btn-group {
         display: flex;
 

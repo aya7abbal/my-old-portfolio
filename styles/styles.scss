@@ -42,14 +42,12 @@ body {
 h2{
     text-align: center;
     color:var(--teal);    font-weight: 700;
-    background-color: var(--cafe);
-    width: fit-content;
-    padding: 10px 30px !important;
-    border-radius: 10px;
+   
     margin:60px auto;
+    text-decoration: underline;
 
  &:hover{
-        background-color: var(--cafe) ;
+      
         color: rgba(122, 167, 146, 0.658);
     }
 
