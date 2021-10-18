@@ -467,11 +467,13 @@ body {
   background-color: transparent;
   font-weight: 600;
   font-size: 1.2em;
+  text-decoration: underline !important;
 }
 
 .btn-rose:hover {
-  text-decoration: underline !important;
+  background-color: white;
   color: #759c93;
+  padding: 8px;
 }
 
 a {
@@ -683,6 +685,14 @@ h6 {
   color: var(--teal);
   font-size: 1em;
   text-decoration: underline;
+  margin: 10px;
+}
+
+.proj-cards .card .gitlink a:hover {
+  background-color: var(--cafe);
+  padding: 8px;
+  border-radius: 10px;
+  color: #759c93;
 }
 
 .link {
@@ -738,8 +748,20 @@ h6 {
   color: var(--mint3);
 }
 
-@media (max-width: 768px) {
-  .initial .cta {
+@media (max-width: 414px) {
+  .cv .cta {
+    right: 30%;
+  }
+}
+
+@media (min-width: 415px) {
+  .cv .cta {
+    right: 20%;
+  }
+}
+
+@media (min-width: 769px) {
+  .cv .cta {
     right: 10%;
   }
 }
@@ -836,9 +858,20 @@ body a:hover {
 
 h2 {
   text-align: center;
-  padding: 20px !important;
   color: var(--teal);
   font-weight: 700;
+  background-color: var(--cafe);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 30px !important;
+  border-radius: 10px;
+  margin: 60px auto;
+}
+
+h2:hover {
+  background-color: var(--cafe);
+  color: rgba(122, 167, 146, 0.658);
 }
 
 .card-text p {

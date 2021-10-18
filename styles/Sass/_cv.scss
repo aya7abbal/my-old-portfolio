@@ -5,9 +5,18 @@
 
 
 
-.initial {
+.cv {
     .cta{
-        @media (max-width:768px) {
+
+        @media (max-width:414px) {
+            right: 30%;
+            
+        }
+        @media (min-width:415px) {
+            right: 20%;
+            
+        }
+        @media (min-width:769px) {
             right: 10%;
             
         }

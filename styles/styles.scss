@@ -33,6 +33,7 @@ body {
     max-height: 100%;
     padding: 0 10;
     margin: auto;
+
     a:hover {
         color: var(--light-purple);
     }
@@ -40,16 +41,29 @@ body {
 
 h2{
     text-align: center;
-    padding: 20px !important;
     color:var(--teal);    font-weight: 700;
+    background-color: var(--cafe);
+    width: fit-content;
+    padding: 10px 30px !important;
+    border-radius: 10px;
+    margin:60px auto;
+
+ &:hover{
+        background-color: var(--cafe) ;
+        color: rgba(122, 167, 146, 0.658);
+    }
+
 
 }
 
-.card-text p{
+
+
+
+.card-text p {
     font-size: 20px !important;
 }
 
-.lang{
+.lang {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -57,24 +71,24 @@ h2{
     font-size: 10px;
 }
 
-h5{
-    color:rgb(148, 111, 134);
+h5 {
+    color: rgb(148, 111, 134);
 }
 
-h7{
+h7 {
     color: var(--teal);
 }
 
-.gitlink{
+.gitlink {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.gitlink a{
+.gitlink a {
     color: var(--teal);
     font-size: 1em;
     text-decoration: underline;
 
-    
+
 }

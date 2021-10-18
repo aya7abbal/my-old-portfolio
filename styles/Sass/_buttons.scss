@@ -17,9 +17,12 @@
 background-color: transparent;
 font-weight: 600;
 font-size: 1.2em;
+text-decoration: underline !important;
+
 &:hover{
-  text-decoration: underline !important;
+  background-color: white;
   color: #759c93;
+  padding: 8px;
 }
 }
 
