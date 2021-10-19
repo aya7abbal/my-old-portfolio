@@ -628,6 +628,18 @@ h6 {
   color: var(--light-purple2);
 }
 
+.page-title .card {
+  margin: 0% !important;
+}
+
+.page-title .card .cv-btn {
+  margin: 0% !important;
+}
+
+.resume .about {
+  margin: 0% !important;
+}
+
 .cv-btn .button:hover {
   background-color: white;
   color: var(--light-purple2);
