@@ -58,6 +58,7 @@ body {
   --mint2:#88a8a82d;
   --mint3:#598383c4;
   --mint4: #7cafafa1;
+  --mint5:#578585bb;
   --grey:#6C6C6E;
   --black:#010101;
   --teal2:#60758a;
@@ -259,6 +260,7 @@ body {
   --mint2:#88a8a82d;
   --mint3:#598383c4;
   --mint4: #7cafafa1;
+  --mint5:#578585bb;
   --grey:#6C6C6E;
   --black:#010101;
   --teal2:#60758a;
@@ -552,7 +554,7 @@ h6 {
 }
 
 .bold-word {
-  color: var(--mint3);
+  color: var(--mint5);
 }
 
 .cv a:hover {
