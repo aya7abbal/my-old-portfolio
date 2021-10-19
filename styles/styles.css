@@ -61,6 +61,7 @@ body {
   --grey:#6C6C6E;
   --black:#010101;
   --teal2:#60758a;
+  --teal3:#56626e83;
 }
 
 .navbar {
@@ -104,6 +105,11 @@ body {
 .navbar-brand {
   font-family: 'Style Script', cursive;
   font-size: 2.5rem;
+  color: black;
+}
+
+.navbar-brand:hover {
+  color: black !important;
 }
 
 @media (max-width: 414px) {
@@ -114,7 +120,8 @@ body {
     text-decoration: none !important;
   }
   .navbar-brand a:hover {
-    text-decoration: none;
+    text-decoration: none !important;
+    color: black !important;
   }
 }
 
@@ -255,6 +262,7 @@ body {
   --grey:#6C6C6E;
   --black:#010101;
   --teal2:#60758a;
+  --teal3:#56626e83;
 }
 
 .btn-purple1 {
@@ -267,7 +275,7 @@ body {
 }
 
 .btn-mint:hover {
-  color: #4a7272;
+  color: var(--light-purple2);
   background-color: white;
   border: 1px solid #e1e7e77e;
   -webkit-box-shadow: 4px 4px #e1e7e77e;
@@ -280,6 +288,10 @@ body {
   margin: 10px;
   font-weight: 600;
   font-size: 1em;
+  background-color: white;
+  border: 1px solid #e1e7e77e;
+  -webkit-box-shadow: 4px 4px #e1e7e77e;
+          box-shadow: 4px 4px #e1e7e77e;
 }
 
 .btn-rose:hover {
@@ -326,6 +338,18 @@ a {
   margin: 30px auto;
   color: white;
   text-align: center;
+  border: 1px solid #e1e7e77e;
+  -webkit-box-shadow: 4px 4px #abb6b652;
+          box-shadow: 4px 4px #abb6b652;
+}
+
+.animated-btn .button:hover {
+  background-color: white;
+  color: var(--light-purple2);
+}
+
+.animated-btn .button:hover a {
+  color: var(--light-purple2);
 }
 
 .animated-btn .button a {
@@ -404,144 +428,23 @@ h6 {
   padding-top: 40px;
 }
 
-.contact-btn {
-  margin: 0 30%;
-  width: 250px;
+#contact {
+  width: 60%;
+  margin: auto;
 }
 
-.contact-btn .collapse .card {
-  -webkit-transform: translateX(-35px);
-          transform: translateX(-35px);
-  -webkit-transition-duration: 0ms;
-          transition-duration: 0ms;
-}
-
-.contact-btn .card-body a {
-  text-decoration: none;
-  font-weight: 500;
+#contact .button {
   padding: 5px;
+  margin-bottom: 15%;
 }
 
-.contact-btn html,
-.contact-btn body {
-  height: 100%;
+#contact .button:hover {
+  background-color: white;
+  color: var(--light-purple2);
 }
 
-.contact-btn a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.contact-btn .cta {
-  position: relative;
-  padding: 19px 19px;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-
-@media (min-width: 768px) {
-  .contact-btn .cta {
-    left: 35%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .contact-btn .cta {
-    left: 55%;
-  }
-}
-
-@media (min-width: 1025px) {
-  .contact-btn .cta {
-    left: 90%;
-  }
-}
-
-.contact-btn .cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 28px;
-  background: #7e91a554;
-  width: 56px;
-  height: 56px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.contact-btn .cta span {
-  position: relative;
-  font-size: 1em;
-  line-height: 10px;
-  font-weight: 800;
-  vertical-align: middle;
-  letter-spacing: 0.15em;
-}
-
-.contact-btn .cta svg {
-  position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #111;
-  stroke-width: 2;
-  -webkit-transform: translateX(-5px);
-          transform: translateX(-5px);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.contact-btn .cta:hover:before {
-  width: 100%;
-  background: #e1e7e77a;
-}
-
-.contact-btn .cta:hover svg {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-}
-
-.contact-btn .cta:active {
-  -webkit-transform: scale(0.96);
-          transform: scale(0.96);
-}
-
-.contact-btn .cta span {
-  position: relative;
-  font-size: 1em;
-  line-height: 10px;
-  font-weight: 800;
-  vertical-align: middle;
-  letter-spacing: 0.15em;
-  color: black;
-}
-
-.contact-btn .cta span:hover {
-  color: var(--light-purple);
-}
-
-.contact-btn .cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 28px;
-  background: #cadfdf62;
-  width: 56px;
-  height: 56px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.contact-btn .cta:hover:before {
-  width: 100%;
-  background: #cadfdfce;
-  color: white;
+#contact button:hover a {
+  color: var(--light-purple2);
 }
 
 .proj-cards .card {
@@ -632,19 +535,20 @@ h6 {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #56626e86;
+  background-color: var(--teal3);
   cursor: pointer;
-  padding: 5px;
-  border-radius: 4px;
-  bottom: 10%;
+  border-radius: 10px;
+  bottom: 15%;
   right: 5%;
   font-size: 20px;
   color: white;
 }
 
 #myBtn:hover {
-  background-color: #56626eb2;
-  color: white;
+  background-color: white;
+  color: var(--light-purple2);
+  -webkit-box-shadow: 3px 3px var(--mint);
+          box-shadow: 3px 3px var(--mint);
 }
 
 .bold-word {
@@ -726,11 +630,13 @@ h6 {
 
 .cv-btn .button:hover {
   background-color: white;
-  color: var(--mint4);
+  color: var(--light-purple2);
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
-  border: 1px solid var(--mint4);
-  font-weight: 600;
+}
+
+.cv-btn button:hover a {
+  color: var(--light-purple2);
 }
 
 .container,

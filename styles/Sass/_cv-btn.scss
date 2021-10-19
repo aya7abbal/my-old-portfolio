@@ -3,10 +3,12 @@
   
   .button:hover{
 background-color: white;
-color: var(--mint4);
+color: var(--light-purple2);
 transition-duration: .3s;
-border: 1px solid var(--mint4);
-font-weight: 600;
+
+  }
+  button:hover a{
+    color: var(--light-purple2);
 
   }
 }

@@ -7,7 +7,7 @@
   margin: 10px;
 
   &:hover{
-    color: rgb(74, 114, 114);
+    color: var(--light-purple2);
     background-color: white;
     border: 1px solid #e1e7e77e;
     box-shadow: 4px 4px #e1e7e77e;
@@ -21,6 +21,9 @@ border-radius: 10px;
 margin: 10px;
 font-weight: 600;
 font-size: 1em;
+background-color: white;
+  border: 1px solid #e1e7e77e;
+  box-shadow: 4px 4px #e1e7e77e;
 
 &:hover{
   color: rgb(74, 114, 114);
@@ -62,8 +65,21 @@ flex-direction: column;
     margin: 30px auto;
     color:white;
     text-align: center;
+    border: 1px solid #e1e7e77e;
+  box-shadow: 4px 4px #abb6b652;
 
-   
+   &:hover{
+background-color: white;
+color: var(--light-purple2);
+   }
+
+   &:hover a{
+    color: var(--light-purple2);
+
+
+   }
+
+
     
 a{
   color: white;

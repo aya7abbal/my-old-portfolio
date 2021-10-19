@@ -23,6 +23,8 @@
 
 
 #myBtn {
+
+
   display: none;
   position: fixed;
   bottom: 20px;
@@ -30,18 +32,18 @@
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #56626e86;
+  background-color: var(--teal3);
   cursor: pointer;
-  padding: 5px;
-  border-radius: 4px;
+  border-radius: 10px;
 
-    bottom: 10%;
+    bottom: 15%;
     right: 5%;
     font-size: 20px;
     color: white;
 }
 
 #myBtn:hover {
-  background-color:#56626eb2;
-  color:white;
+  background-color:white;
+  color:var(--light-purple2);
+  box-shadow:3px 3px var(--mint);
 }

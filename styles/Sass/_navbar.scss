@@ -46,6 +46,10 @@
 .navbar-brand {
   font-family: 'Style Script', cursive;
   font-size: 2.5rem;
+  color: black;
+  &:hover{
+    color: black !important;
+  }
 
 
 
@@ -60,7 +64,8 @@
     }
 
     a:hover {
-      text-decoration: none;
+      text-decoration: none !important;
+      color: black !important;
     }
   }
 

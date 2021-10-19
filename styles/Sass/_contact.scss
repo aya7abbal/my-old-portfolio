@@ -1,149 +1,20 @@
-.contact-btn {
+#contact{
+  width: 60%;
+  margin:auto;
 
-.collapse .card{
-  transform: translateX(-35px);
-  transition-duration: 0ms;
-
-
-}
-  margin: 0 30%;
-  width: 250px;
-
-
-
-  .card-body a {
-    text-decoration: none;
-    font-weight: 500;
+  .button {
     padding: 5px;
+    margin-bottom: 15%;
 
-  }
-
-
-
-  html,
-  body {
-    height: 100%;
-  }
-
-  a {
-    text-decoration: none;
-    color: inherit;
-
-  }
-
-  .cta {
-    position: relative;
-    padding: 19px 19px;
-    transition: all 0.2s ease;
-
-
-
-    @media (min-width:768px) {
-
-      left: 35%;
-   
+    &:hover{
+      background-color: white;
+      color: var(--light-purple2);
       
-  }
-  @media (min-width:1024px) {
-
-    left: 55%;
- 
-    
-}
-@media (min-width:1025px) {
-
-  left: 90%;
-
-  
-}
-
-
-  }
-
-  .cta:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 28px;
-    background: #7e91a554;
-    width: 56px;
-    height: 56px;
-    transition: all 0.3s ease;
-  }
-
-  .cta span {
-    position: relative;
-    font-size: 1em;
-    line-height: 10px;
-    font-weight: 800;
-    vertical-align: middle;
-    letter-spacing: 0.15em;
-  }
-
-  .cta svg {
-    position: relative;
-    top: 0;
-    margin-left: 10px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: #111;
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all 0.3s ease;
-  }
-
-  .cta:hover:before {
-    width: 100%;
-    background: #e1e7e77a;
-
-  }
-
-  .cta:hover svg {
-    transform: translateX(0);
-  }
-
-  .cta:active {
-    transform: scale(0.96);
-  }
-}
-
-.contact-btn {
-
-  .cta span {
-      position: relative;
-      font-size: 1em;
-      line-height: 10px;
-      font-weight: 800;
-      vertical-align: middle;
-      letter-spacing: 0.15em;
-      color: black;
-  
-      &:hover{
-          color: var(--light-purple);
-      }
-  }
-  .cta:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: block;
-      border-radius: 28px;
-      background: #cadfdf62;
-      
-      width: 56px;
-      height: 56px;
-      -webkit-transition: all 0.3s ease;
-      transition: all 0.3s ease;
-  }
-  .cta:hover:before {
-      width: 100%;
-      background: #cadfdfce;
-      color: white;
       
     }
-    
   }
+  button:hover a{
+    color: var(--light-purple2);
+
+  }
+}
