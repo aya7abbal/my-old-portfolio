@@ -48,7 +48,7 @@ body {
   --light-blue: #A6D6D6;
   --lemon:#EDEDD0;
   --logo:rgb(42, 31, 59);
-  --light-purple2:#4e3953;
+  --light-purple2:#76587e;
   --teal:#56626E;
   --cafe:#d4d4d48f;
   --rose:#F0EAEA;
@@ -57,6 +57,7 @@ body {
   --mint:#E1E7E7;
   --mint2:#88a8a82d;
   --mint3:#598383c4;
+  --mint4: #7cafafa1;
   --grey:#6C6C6E;
   --black:#010101;
   --teal2:#60758a;
@@ -241,7 +242,7 @@ body {
   --light-blue: #A6D6D6;
   --lemon:#EDEDD0;
   --logo:rgb(42, 31, 59);
-  --light-purple2:#4e3953;
+  --light-purple2:#76587e;
   --teal:#56626E;
   --cafe:#d4d4d48f;
   --rose:#F0EAEA;
@@ -250,6 +251,7 @@ body {
   --mint:#E1E7E7;
   --mint2:#88a8a82d;
   --mint3:#598383c4;
+  --mint4: #7cafafa1;
   --grey:#6C6C6E;
   --black:#010101;
   --teal2:#60758a;
@@ -266,11 +268,14 @@ body {
 
 .btn-mint:hover {
   color: #4a7272;
+  background-color: white;
+  border: 1px solid #e1e7e77e;
+  -webkit-box-shadow: 4px 4px #e1e7e77e;
+          box-shadow: 4px 4px #e1e7e77e;
 }
 
 .btn-rose {
   color: var(--teal);
-  background-color: white;
   border-radius: 10px;
   margin: 10px;
   font-weight: 600;
@@ -278,8 +283,11 @@ body {
 }
 
 .btn-rose:hover {
-  color: #759c93;
-  text-decoration: underline !important;
+  color: #4a7272;
+  background-color: white;
+  border: 1px solid #e1e7e77e;
+  -webkit-box-shadow: 4px 4px #e1e7e77e;
+          box-shadow: 4px 4px #e1e7e77e;
 }
 
 a {
@@ -287,6 +295,68 @@ a {
   color: black;
   font-weight: bolder;
   background-color: transparent;
+}
+
+.animated-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.animated-btn .collapse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.animated-btn .button {
+  border-radius: 10px;
+  background-color: var(--mint4);
+  border: none;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 30px auto;
+  color: white;
+  text-align: center;
+}
+
+.animated-btn .button a {
+  color: white;
+}
+
+.animated-btn .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.animated-btn .button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.animated-btn .button:hover span {
+  padding-right: 25px;
+}
+
+.animated-btn .button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .footer {
@@ -654,206 +724,13 @@ h6 {
   color: var(--light-purple2);
 }
 
-.cv-btn {
-  margin: 0 20%;
-  width: 250px;
-}
-
-@media (max-width: 415px) {
-  .cv-btn .cta {
-    left: 5%;
-  }
-}
-
-@media (min-width: 768px) {
-  .cv-btn .cta {
-    left: 35%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .cv-btn .cta {
-    left: 65%;
-  }
-}
-
-@media (min-width: 1025px) {
-  .cv-btn .cta {
-    left: 110%;
-  }
-}
-
-.cv-btn body {
-  display: -ms-grid;
-  display: grid;
-  color: #111 !important;
-}
-
-.cv-btn a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.cv-btn .cta {
-  position: relative;
-  margin: auto;
-  padding: 19px 19px;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-
-.cv-btn .cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 28px;
-  background: #cadfdf62;
-  width: 56px;
-  height: 56px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.cv-btn .cta span {
-  position: relative;
-  font-size: 1em;
-  line-height: 10px;
-  font-weight: 800;
-  vertical-align: middle;
-  letter-spacing: 0.15em;
-}
-
-.cv-btn .cta svg {
-  position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #111;
-  stroke-width: 2;
-  -webkit-transform: translateX(-5px);
-          transform: translateX(-5px);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.cv-btn .cta:hover:before {
-  width: 100%;
-  background: #cadfdfce;
-}
-
-.cv-btn .cta:hover svg {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-}
-
-.cv-btn .cta:active {
-  -webkit-transform: scale(0.96);
-          transform: scale(0.96);
-}
-
-.dres-btn {
-  margin: 0 20%;
-  width: 250px;
-}
-
-@media (max-width: 415px) {
-  .dres-btn .cta {
-    right: 8%;
-  }
-}
-
-@media (min-width: 768px) {
-  .dres-btn .cta {
-    right: 10%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .dres-btn .cta {
-    left: 10%;
-  }
-}
-
-@media (min-width: 1025px) {
-  .dres-btn .cta {
-    left: 30%;
-  }
-}
-
-.dres-btn body {
-  display: -ms-grid;
-  display: grid;
-  color: #111 !important;
-}
-
-.dres-btn a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.dres-btn .cta {
-  position: relative;
-  margin: auto;
-  padding: 19px 19px;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-
-.dres-btn .cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 28px;
-  background: #cadfdf62;
-  width: 56px;
-  height: 56px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.dres-btn .cta span {
-  position: relative;
-  font-size: 1em;
-  line-height: 10px;
-  font-weight: 800;
-  vertical-align: middle;
-  letter-spacing: 0.15em;
-}
-
-.dres-btn .cta svg {
-  position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #111;
-  stroke-width: 2;
-  -webkit-transform: translateX(-5px);
-          transform: translateX(-5px);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.dres-btn .cta:hover:before {
-  width: 100%;
-  background: #cadfdfce;
-}
-
-.dres-btn .cta:hover svg {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-}
-
-.dres-btn .cta:active {
-  -webkit-transform: scale(0.96);
-          transform: scale(0.96);
+.cv-btn .button:hover {
+  background-color: white;
+  color: var(--mint4);
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  border: 1px solid var(--mint4);
+  font-weight: 600;
 }
 
 .container,

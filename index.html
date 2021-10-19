@@ -48,28 +48,28 @@
     <nav class="navbar navbar-light py-0">
 
 
-    
 
 
 
-        
+
+
 
         <div class="container-fluid">
             <a class="navbar-brand justify-content-start" style="text-decoration: none;" href="/index.html">
                 <img src="./LOGO/logo5.png" width="40px">
                 Aya Elhabbal</a>
 
-                <ul class="nav big-menu">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/works.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/resume.html"> Experience</a>
-                    </li>
-                  </ul>
+            <ul class="nav big-menu">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/works.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/resume.html"> Experience</a>
+                </li>
+            </ul>
 
             <button class="navbar-toggler fixed-top" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -157,12 +157,11 @@
                                     to shift careers and to become a UI/UX Developer. I am a keen worker as I
                                     love to create and think out of the box! Here's a peek into what I've been up to.
                                 </p>
-                                <div class="dres-btn py-5">
-                                    <a href="./resume.html" class="cta">
-                                        <span>View Resume</span>
+                                
 
-                                    </a>
-                                </div>
+                                <div class="animated-btn"><button class="button"><span><a href="./resume.html"
+                                                class="animated-btn">View Resume</a></span></button></div>
+
 
                             </div>
 
@@ -194,15 +193,13 @@
     </div>
 
     <div class="background2 container-fluid cards-projs  m-auto">
-        <a href="./works.html">
-            <div class="contact-btn py-5">
-                <a href="./works.html" class="cta">
-                    <span>Projects</span>
+        
 
-                </a>
-            </div>
+        <div class="animated-btn "><button class="button"><span><a href="./works.html"
+            class="animated-btn">Projects</a></span></button></div>
 
-        </a>
+
+
         <div class="row row-cols-1 row-cols-md-2 g-4 mx-4">
             <div class="col">
                 <div class="card">
@@ -232,7 +229,7 @@
                 </div>
             </div>
 
-           
+
             <div class="col">
                 <div class="card">
                     <h5 class="card-title text-center"><a href="./works.html#Learning">Learning</a> </h5>
@@ -288,17 +285,16 @@
     </div>
 
 
-    <div class="contact-btn">
+    <div class="animated-btn" id="contact">
+
+
         <p>
 
-
-            <a class="cta btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-                aria-controls="collapseExample">
-                <span> Contact Me </span>
-            </a>
+            <button class="button "><span><a class="animated-btn"  data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                aria-controls="collapseExample">Contact Me</a></span></button>
 
         </p>
-        <div class="collapse " id="collapseExample">
+        <div class="collapse  mx-3" id="collapseExample">
             <div class="card text-center  card-body">
 
                 <a href="mailto:aya7abbal@gmail.com" target="_newtab"><i class="bi bi-envelope px-2"></i>
@@ -310,6 +306,11 @@
             </div>
         </div>
     </div>
+
+
+
+
+
 
     <br>
     <br><br>
@@ -329,7 +330,7 @@
             <img src="./svg/bootstrap-icon.svg" class="px-2" title="Bootstrap5">
             <img src="./svg/PS.svg" class="px-2" title="Photoshop">
             <img src="./svg/ID.svg" class="px-2" title="InDesign">
-            <img src="./svg/Ai.svg" class="px-2" title="Illustrator" >
+            <img src="./svg/Ai.svg" class="px-2" title="Illustrator">
 
 
 
@@ -345,8 +346,8 @@
                     class="bi bi-linkedin text-white px-2" title="LinkedIn"></i></a>
 
 
-            <a href="https://www.behance.net/aya7abbal" target="_blank"> <i
-                    class="fa fa-behance text-white px-2" title="Behance"></i></a>
+            <a href="https://www.behance.net/aya7abbal" target="_blank"> <i class="fa fa-behance text-white px-2"
+                    title="Behance"></i></a>
 
         </div>
 
@@ -361,24 +362,27 @@
     <script>
         //Get the button
         var mybutton = document.getElementById("myBtn");
-        
+
         // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
-        
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
         function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-          } else {
-            mybutton.style.display = "none";
-          }
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
         }
-        
+
         // When the user clicks on the button, scroll to the top of the document
         function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
-        </script>
+    </script>
+
 
 </body>
 
