@@ -9,12 +9,6 @@
   margin: 0 30%;
   width: 250px;
 
-  @media (min-width:500px) {
-
-    margin: 0 40%;
-
-  }
-
 
 
   .card-body a {
@@ -31,12 +25,6 @@
     height: 100%;
   }
 
-  body {
-    display: grid;
-
-    color: #111;
-  }
-
   a {
     text-decoration: none;
     color: inherit;
@@ -48,6 +36,26 @@
     padding: 19px 19px;
     transition: all 0.2s ease;
 
+
+
+    @media (min-width:768px) {
+
+      left: 35%;
+   
+      
+  }
+  @media (min-width:1024px) {
+
+    left: 55%;
+ 
+    
+}
+@media (min-width:1025px) {
+
+  left: 90%;
+
+  
+}
 
 
   }
@@ -101,3 +109,41 @@
     transform: scale(0.96);
   }
 }
+
+.contact-btn {
+
+  .cta span {
+      position: relative;
+      font-size: 1em;
+      line-height: 10px;
+      font-weight: 800;
+      vertical-align: middle;
+      letter-spacing: 0.15em;
+      color: black;
+  
+      &:hover{
+          color: var(--light-purple);
+      }
+  }
+  .cta:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      border-radius: 28px;
+      background: #cadfdf62;
+      
+      width: 56px;
+      height: 56px;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+  .cta:hover:before {
+      width: 100%;
+      background: #cadfdfce;
+      color: white;
+      
+    }
+    
+  }

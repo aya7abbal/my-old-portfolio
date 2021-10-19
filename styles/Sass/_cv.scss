@@ -9,28 +9,6 @@
     a:hover {
         color: var(--light-purple) !important;
     }
-    .cta{
-
-        @media (max-width:414px) {
-            right: 16%;
-            
-        }
-        @media (min-width:415px) {
-            right: 20%;
-            
-        }
-        @media (min-width:769px) {
-            right: 9%;
-            
-        }
-        @media (min-width:1024px) {
-            right: 7%;
-            
-        }
-
-       
-    }
-
 
 }
 
@@ -125,43 +103,7 @@
 
 }
 
-.contact-btn {
 
-.cta span {
-    position: relative;
-    font-size: 1em;
-    line-height: 10px;
-    font-weight: 800;
-    vertical-align: middle;
-    letter-spacing: 0.15em;
-    color: black;
-
-    &:hover{
-        color: var(--light-purple);
-    }
-}
-.cta:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 28px;
-    background: #cadfdf62;
-    
-    width: 56px;
-    height: 56px;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-.cta:hover:before {
-    width: 100%;
-    background: #cadfdfce;
-    color: white;
-    
-  }
-  
-}
 
 .list-group-item{
 
