@@ -14,15 +14,16 @@
 
 .btn-rose {
   color:var(--teal) ;
-background-color: transparent;
+background-color: white;
+border-radius: 10px;
+margin: 10px;
 font-weight: 600;
-font-size: 1.2em;
-text-decoration: underline !important;
+font-size: 1em;
 
 &:hover{
-  background-color: white;
   color: #759c93;
-  padding: 8px;
+  text-decoration: underline !important;
+
 }
 }
 

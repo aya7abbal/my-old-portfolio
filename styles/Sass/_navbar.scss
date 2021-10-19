@@ -56,10 +56,9 @@
 }
 
 .fixed-top {
-  position: fixed !important;
 
   @media (max-width:414px) {
-    top: 7px !important;
+    top: 10px !important;
 
   }
   top: 15px !important;
@@ -70,11 +69,11 @@
   }
 
   @media (min-width: 415px) {
-    left: 90%;
+    left: 85%;
   }
 
-  @media (min-width: 769px) {
-    left: 93%;
+  @media (min-width: 768px) {
+    left: 92%;
   }
 }
 

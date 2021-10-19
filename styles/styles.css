@@ -42,7 +42,7 @@ body {
 .cv-btn body {
   display: -ms-grid;
   display: grid;
-  color: #111;
+  color: #111 !important;
 }
 
 .cv-btn a {
@@ -65,7 +65,7 @@ body {
   left: 0;
   display: block;
   border-radius: 28px;
-  background: #7e91a554;
+  background: #cadfdf62;
   width: 56px;
   height: 56px;
   -webkit-transition: all 0.3s ease;
@@ -98,7 +98,7 @@ body {
 
 .cv-btn .cta:hover:before {
   width: 100%;
-  background: #e1e7e77a;
+  background: #cadfdfce;
 }
 
 .cv-btn .cta:hover svg {
@@ -131,6 +131,7 @@ body {
   --light-blue: #A6D6D6;
   --lemon:#EDEDD0;
   --logo:rgb(42, 31, 59);
+  --light-purple2:#4e3953;
   --teal:#56626E;
   --cafe:#d4d4d48f;
   --rose:#F0EAEA;
@@ -188,14 +189,13 @@ body {
 }
 
 .fixed-top {
-  position: fixed !important;
   top: 15px !important;
   width: 60px;
 }
 
 @media (max-width: 414px) {
   .fixed-top {
-    top: 7px !important;
+    top: 10px !important;
   }
 }
 
@@ -207,13 +207,13 @@ body {
 
 @media (min-width: 415px) {
   .fixed-top {
-    left: 90%;
+    left: 85%;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .fixed-top {
-    left: 93%;
+    left: 92%;
   }
 }
 
@@ -287,7 +287,7 @@ body {
 .cv-btn body {
   display: -ms-grid;
   display: grid;
-  color: #111;
+  color: #111 !important;
 }
 
 .cv-btn a {
@@ -310,7 +310,7 @@ body {
   left: 0;
   display: block;
   border-radius: 28px;
-  background: #7e91a554;
+  background: #cadfdf62;
   width: 56px;
   height: 56px;
   -webkit-transition: all 0.3s ease;
@@ -343,7 +343,7 @@ body {
 
 .cv-btn .cta:hover:before {
   width: 100%;
-  background: #e1e7e77a;
+  background: #cadfdfce;
 }
 
 .cv-btn .cta:hover svg {
@@ -376,6 +376,7 @@ body {
   --light-blue: #A6D6D6;
   --lemon:#EDEDD0;
   --logo:rgb(42, 31, 59);
+  --light-purple2:#4e3953;
   --teal:#56626E;
   --cafe:#d4d4d48f;
   --rose:#F0EAEA;
@@ -404,16 +405,16 @@ body {
 
 .btn-rose {
   color: var(--teal);
-  background-color: transparent;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
   font-weight: 600;
-  font-size: 1.2em;
-  text-decoration: underline !important;
+  font-size: 1em;
 }
 
 .btn-rose:hover {
-  background-color: white;
   color: #759c93;
-  padding: 8px;
+  text-decoration: underline !important;
 }
 
 a {
@@ -592,6 +593,8 @@ h6 {
   font-size: 1.2em;
   color: black;
   font-weight: 300;
+  text-align: justify;
+  text-align-last: justify;
 }
 
 .proj-cards .card .gitlink {
@@ -605,6 +608,7 @@ h6 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  text-align: center;
 }
 
 .proj-cards .card .gitlink a {
@@ -672,9 +676,13 @@ h6 {
   color: var(--mint3);
 }
 
+.cv a:hover {
+  color: var(--light-purple) !important;
+}
+
 @media (max-width: 414px) {
   .cv .cta {
-    right: 18%;
+    right: 16%;
   }
 }
 
@@ -686,7 +694,13 @@ h6 {
 
 @media (min-width: 769px) {
   .cv .cta {
-    right: 4%;
+    right: 9%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cv .cta {
+    right: 7%;
   }
 }
 
@@ -755,6 +769,44 @@ h6 {
   font-weight: 500;
 }
 
+.contact-btn .cta span {
+  position: relative;
+  font-size: 1em;
+  line-height: 10px;
+  font-weight: 800;
+  vertical-align: middle;
+  letter-spacing: 0.15em;
+  color: black;
+}
+
+.contact-btn .cta span:hover {
+  color: var(--light-purple);
+}
+
+.contact-btn .cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: #cadfdf62;
+  width: 56px;
+  height: 56px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.contact-btn .cta:hover:before {
+  width: 100%;
+  background: #cadfdfce;
+  color: white;
+}
+
+.list-group-item .exp:hover {
+  color: var(--light-purple2);
+}
+
 .container,
 .container-fluid,
 .container-lg,
@@ -777,7 +829,7 @@ body {
 }
 
 body a:hover {
-  color: var(--light-purple);
+  color: var(--light-purple) !important;
 }
 
 h2 {

@@ -1,7 +1,7 @@
 .proj-cards {
     .card {
 
-       
+
 
         max-height: 20% !important;
 
@@ -16,7 +16,7 @@
         }
 
         img {
-            max-height:auto;
+            max-height: auto;
 
         }
 
@@ -24,12 +24,16 @@
             font-size: 1.2em;
             color: black;
             font-weight: 300;
+            text-align: justify;
+            text-align-last: justify;
+
         }
 
         .gitlink {
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
+            text-align:center;
         }
 
         .gitlink a {
@@ -39,7 +43,7 @@
             margin: 10px;
 
             &:hover {
-                
+
                 border-radius: 10px;
                 color: #759c93;
             }

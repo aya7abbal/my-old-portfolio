@@ -60,7 +60,7 @@ body {
   body {
     display: grid;
   
-    color: #111;
+    color: #111 !important;
   }
   
   a {
@@ -81,7 +81,7 @@ body {
     left: 0;
     display: block;
     border-radius: 28px;
-    background:#7e91a554;
+    background:#cadfdf62;
     width: 56px;
     height: 56px;
     transition: all 0.3s ease;
@@ -108,7 +108,7 @@ body {
   }
   .cta:hover:before {
     width: 100%;
-    background: #e1e7e77a;
+    background: #cadfdfce;
     
   }
   .cta:hover svg {
