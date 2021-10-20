@@ -46,6 +46,14 @@
     align-items: center;
     justify-content: center;
 
+    @media (min-height:550px) {
+      width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+      
+    }
+
     .button{
       margin: 5px;
     }

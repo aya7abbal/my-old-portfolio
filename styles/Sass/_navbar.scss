@@ -11,6 +11,10 @@
 
   .navbar-toggler {
     margin:2%;
+    @media (min-width:769px) {
+      display: none;
+
+    }
   }
 
   .big-menu{
