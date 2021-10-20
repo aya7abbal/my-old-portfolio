@@ -71,8 +71,8 @@
                 </li>
             </ul>
 
-            <button class="navbar-toggler fixed-top" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
@@ -121,19 +121,52 @@
 
     </nav>
 
+    <div class="navlinks">
 
+        <div class="animated-btn" id="contact">
+            <button class="button">
+                <a href="Tel:00201020181887" title="+201020181887"><i class="fas fa-phone-alt"></i></a>
+            </button>
+
+            <button class="button">
+                <a href="mailto:aya7abbal@gmail.com" target="_newtab"><i class="bi bi-envelope"
+                        title="aya7abbal@gmail.com"></i>
+                </a>
+            </button>
+
+            <button class="button">
+                <a href="https://github.com/aya7abbal?tab=repositories" target="_newtab"><i
+                        class="bi bi-github text-white" title="Github"></i>
+                </a>
+            </button>
+
+            <button class="button">
+                <a href="https://www.linkedin.com/in/aya-el-habbal-56957a66/" target="_newtab"><i
+                        class="bi bi-linkedin text-white" title="LinkedIn"></i>
+                </a>
+            </button>
+
+            <button class="button">
+                <a href="https://www.fiverr.com/aya7abbal" target="_newtab"  title="Fiverr">
+                    <i class="fiverr"></i>
+                </a>
+            </button>
+
+
+        </div>
+    </div>
 
     <!-- Landing Page -->
 
     <div class=" container-fluid landing ">
 
 
-        <div class="container-fluid intro m-auto">
+        <div class="container-fluid intro m-auto px-5">
             <div class="background">
                 <div class="row m-auto ">
 
 
-                    <div class="col-11  col-md-6 picture m-auto">
+                    <div class="col-12  col-md-5 picture m-auto">
                         <img class="img-fluid rounded-circle p-3" src="images/MyPic.jpg" alt="">
 
                     </div>
@@ -141,9 +174,9 @@
 
 
 
-                    <div class="col-12 col-md-6 ">
+                    <div class="col-12 col-md-5 ">
                         <div class="intro-wrap my-auto">
-                            <div class="intro p-4 text-center">
+                            <div class="intro p-2 text-center">
                                 <h3>
                                     Hello, I'm Aya!
                                 </h3>
@@ -157,7 +190,7 @@
                                     to shift careers and to become a UI/UX Developer. I am a keen worker as I
                                     love to create and think out of the box! Here's a peek into what I've been up to.
                                 </p>
-                                
+
 
                                 <div class="animated-btn"><button class="button"><span><a href="./resume.html"
                                                 class="animated-btn">View Resume</a></span></button></div>
@@ -182,7 +215,7 @@
 
     <div class="quote">
         <div class="card">
-            <div class="card-body">
+            <div class="card-body px-5">
                 <blockquote class="blockquote mb-0 text-center">
                     <i>Never let the fear of striking out keep you from playing the game.</i>
                     <footer class="blockquote-footer">Babe Ruth
@@ -193,14 +226,14 @@
     </div>
 
     <div class="background2 container-fluid cards-projs  m-auto">
-        
+
 
         <div class="animated-btn "><button class="button"><span><a href="./works.html"
-            class="animated-btn">Projects</a></span></button></div>
+                        class="animated-btn">Projects</a></span></button></div>
 
 
 
-        <div class="row row-cols-1 row-cols-md-2 g-4 mx-4">
+        <div class="row row-cols-1 row-cols-md-2 g-4 mx-5">
             <div class="col">
                 <div class="card">
                     <h5 class="card-title text-center p-1"> <a href="./works.html#myportfolio">My Portfolio Project</a>
@@ -285,7 +318,7 @@
     </div>
 
 
-    <div class="animated-btn" id="contact">
+    <!-- <div class="animated-btn" id="contact">
         <button class="button">
             <a href="Tel:00201020181887" title="+201020181887"><i class="fas fa-phone-alt px-2"></i></a>
         </button>
@@ -294,7 +327,7 @@
             </a>
     </button>
     
-    </div>
+    </div> -->
 
 
 
@@ -370,11 +403,15 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+
         function scrollToTop() {
 
-window.scrollTo({top: 0, behavior: 'smooth'});
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
 
-}
+        }
     </script>
 
 

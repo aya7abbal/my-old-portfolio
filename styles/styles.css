@@ -431,22 +431,68 @@ h6 {
 }
 
 #contact {
-  width: 60%;
   margin: auto;
 }
 
 #contact .button {
-  padding: 5px;
-  margin-bottom: 15%;
+  padding: 2px;
+  margin-bottom: 10%;
 }
 
 #contact .button:hover {
-  background-color: white;
-  color: var(--light-purple2);
+  background-color: var(--light-purple) !important;
+  color: white !important;
 }
 
 #contact button:hover a {
-  color: var(--light-purple2);
+  color: white !important;
+}
+
+.navlinks {
+  position: fixed;
+  left: 1%;
+  top: 7%;
+  z-index: 100;
+}
+
+.navlinks .animated-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.navlinks .animated-btn i {
+  padding: 5px;
+}
+
+.navlinks .animated-btn .button:hover {
+  background-color: var(--light-purple) !important;
+  color: white !important;
+}
+
+.navlinks .animated-btn .button button:hover i {
+  color: white !important;
+}
+
+.fiverr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url("/svg/fiverr.svg");
+  background-repeat: no-repeat;
+  padding: 16px !important;
 }
 
 .proj-cards .card {
@@ -540,8 +586,8 @@ h6 {
   background-color: var(--teal3);
   cursor: pointer;
   border-radius: 10px;
-  bottom: 15%;
-  right: 5%;
+  bottom: 8%;
+  right: 3%;
   font-size: 20px;
   color: white;
 }

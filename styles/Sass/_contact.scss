@@ -1,20 +1,66 @@
 #contact{
-  width: 60%;
+
   margin:auto;
 
   .button {
-    padding: 5px;
-    margin-bottom: 15%;
+    padding: 2px;
+    margin-bottom: 10%;
 
     &:hover{
-      background-color: white;
-      color: var(--light-purple2);
+      background-color: var(--light-purple) !important;
+      color: white !important;
+      
       
       
     }
   }
-  button:hover a{
-    color: var(--light-purple2);
+  button:hover a {
+    color: white !important;
 
   }
 }
+
+.navlinks{
+  position: fixed;
+  left: 1%;
+  top: 7%;
+  z-index: 100;
+  .animated-btn{
+
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+i{
+  padding: 5px;
+}
+
+.button{
+ 
+
+  &:hover{
+    background-color: var(--light-purple) !important;
+    color: white !important;
+    
+  }
+
+button:hover i{
+  color: white !important;
+
+}
+
+}
+  }
+
+  
+}
+
+.fiverr{
+  display: flex;
+  background: url('/svg/fiverr.svg');
+  background-repeat: no-repeat;
+  padding: 16px !important;
+
+  }
