@@ -10,10 +10,7 @@
   border-bottom: 1px solid rgba(190, 185, 185, 0.445);
 
   .navbar-toggler {
-    @media (min-width:769px) {
-      display: none;
-
-    }
+    margin:2%;
   }
 
   .big-menu{
@@ -44,8 +41,15 @@
 }
 
 .navbar-brand {
+img{
+  @media (max-width:550px) {
+display: none;
+    
+  }
+}
+  
   font-family: 'Style Script', cursive;
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   color: black;
   &:hover{
     color: black !important;

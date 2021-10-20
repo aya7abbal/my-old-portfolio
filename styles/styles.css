@@ -72,10 +72,8 @@ body {
   border-bottom: 1px solid rgba(190, 185, 185, 0.445);
 }
 
-@media (min-width: 769px) {
-  .navbar .navbar-toggler {
-    display: none;
-  }
+.navbar .navbar-toggler {
+  margin: 2%;
 }
 
 .navbar .big-menu {
@@ -105,8 +103,14 @@ body {
 
 .navbar-brand {
   font-family: 'Style Script', cursive;
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   color: black;
+}
+
+@media (max-width: 550px) {
+  .navbar-brand img {
+    display: none;
+  }
 }
 
 .navbar-brand:hover {
@@ -449,13 +453,14 @@ h6 {
 }
 
 .navlinks {
+  background-color: var(--rose4);
   position: fixed;
-  top: 8%;
+  top: 10%;
   left: 1%;
   z-index: 100;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 767px) {
   .navlinks {
     position: -webkit-sticky;
     position: sticky;
@@ -476,7 +481,7 @@ h6 {
           align-items: flex-start;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 767px) {
   .navlinks .animated-btn {
     width: 100vw;
     -webkit-box-orient: horizontal;
