@@ -102,28 +102,28 @@ text-transform: unset !important;}
   }
 }
 
-.fixed-top {
+// .fixed-top {
 
-  @media (max-width:414px) {
-    top: 10px !important;
+//   @media (max-width:414px) {
+//     top: 10px !important;
 
-  }
+//   }
 
-  top: 15px !important;
-  width: 60px;
+//   top: 15px !important;
+//   width: 60px;
 
-  @media (max-width: 414px) {
-    left: 80%;
-  }
+//   @media (max-width: 414px) {
+//     left: 80%;
+//   }
 
-  @media (min-width: 415px) {
-    left: 85%;
-  }
+//   @media (min-width: 415px) {
+//     left: 85%;
+//   }
 
-  @media (min-width: 768px) {
-    left: 92%;
-  }
-}
+//   @media (min-width: 768px) {
+//     left: 92%;
+//   }
+// }
 
 .offcanvas-header {
   a {
