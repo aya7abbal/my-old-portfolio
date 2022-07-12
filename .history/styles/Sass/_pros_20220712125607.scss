@@ -1,0 +1,83 @@
+.proj-cards {
+    .card {
+
+
+
+        max-height: 20% !important;
+
+        @media (min-width:768px) {
+            margin: 50px 100px !important;
+
+        }
+
+        @media (min-width:1024px) {
+            margin: 50px 150px !important;
+
+        }
+
+        img {
+            max-height: auto;
+
+        }
+
+        .par {
+            font-size: 1.2em;
+            color: black;
+            font-weight: 300;
+            text-align: justify;
+            text-align-last: justify;
+
+        }
+
+        .gitlink {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            text-align:center;
+        }
+
+        .gitlink a {
+            color: var(--teal);
+            font-size: 1em;
+            text-decoration: underline;
+            margin: 10px;
+
+            &:hover {
+
+                border-radius: 10px;
+                color: #759c93;
+            }
+
+        }
+    }
+
+}
+
+// .carousel-control-prev{
+
+// }
+
+
+.link {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+
+
+
+.page-title .card {
+    background-color: transparent;
+
+    .btn-group {
+        display: flex;
+
+    }
+}
+
+.carousel-caption{
+    padding: 20px;
+}

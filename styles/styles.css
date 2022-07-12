@@ -572,6 +572,10 @@ h6 {
   color: #759c93;
 }
 
+.carousel-item {
+  padding-bottom: 40px;
+}
+
 .link {
   display: -webkit-box;
   display: -ms-flexbox;
